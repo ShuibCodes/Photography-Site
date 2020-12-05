@@ -11,7 +11,7 @@ const Portraits = () => (
   <Layout>
         <SEO title="Portraits" />
     <PortraitImages/>
-    <div>Hiii</div>
+    <div>HELLO</div>
   </Layout>
       
 
