@@ -12,7 +12,7 @@ function HeroSection() {
       <p>Portrait & Travel Photographer</p>
       <div className="hero-btns">
        <Link to="/Images" >
-       <Button fontBig big primary> Check Out My Work! </Button>
+       <Button fontBig big primary> Check Out My WorkKKK! </Button>
        </Link> 
       </div>
 
