@@ -1,18 +1,17 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import "../components/Allimage.css"
-import Footer from "./Footer/Footer"
+import './Portraits.css'
 
 
 
-const Image = () => {
+const PortraitImages = () => {
   const data = useStaticQuery(graphql`
   query  {
     allFile
     (filter: 
         {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, 
-        name: {nin: ["background", "background2"]}}
+        name: {nin: ["background", "background2","PeopleWater"]}}
         
     ) {
       edges {
@@ -33,12 +32,11 @@ const Image = () => {
      // map through images and return 
    return(
         <div className="image-container">
-          
-            <div className="image-grid">
+            <div className="imageGrid" >
                 {data.allFile.edges.map((image,key)=> (
                     // adding properties
                     <Img key={key}
-                    className="image-item"
+                    className="imageItem"
                     fluid={image.node.childImageSharp.fluid}
                     alt={image.node.base.split(".")[0]}
                     />
@@ -51,4 +49,4 @@ const Image = () => {
 
 }
 
-export default Image
+export default PortraitImages
