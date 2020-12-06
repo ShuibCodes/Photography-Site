@@ -11,7 +11,7 @@ const PortraitImages = () => {
     allFile
     (filter: 
         {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, 
-        name: {nin: ["background", "background2","PeopleWater"]}}
+        name: {nin: ["background", "background2","PeopleWater","gatsby-icon"]}}
         
     ) {
       edges {
