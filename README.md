@@ -10,7 +10,3 @@
 
 <img width="1186" alt="Screenshot 2020-12-05 at 20 20 42" src="https://user-images.githubusercontent.com/71759511/101262557-a1ab0200-3737-11eb-9c84-9fda68609136.png">
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 240973a77ff893b88d42ea041296845fcd712f79

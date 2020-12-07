@@ -11,7 +11,7 @@ function HeroSection() {
       <h1>Name Here</h1>
       <div  className="labels">
           <p className="words">
-                Travel |  Events |  Portraits 
+                Travel |  Events |  Portraits  |
           </p>
       </div>
            
