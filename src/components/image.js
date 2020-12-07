@@ -29,9 +29,10 @@ const Image = () => {
   }
   
   
-  `)
+`)
      // map through images and return 
    return(
+    
         <div className="image-container">
           
             <div className="image-grid">

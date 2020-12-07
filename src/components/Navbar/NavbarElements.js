@@ -87,15 +87,15 @@ export const NavItem = styled.li`
   }
 `
 
-export const NavLinks = styled(Link)`
+export const NavLinks = styled.div`
   color: #141414;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
-
+  font-family: sans-serif;
+  text-decoration: none;
 
 
   @media screen and (max-width: 960px) {
@@ -111,13 +111,3 @@ export const NavLinks = styled(Link)`
   }
 `
 
- export const NavlinkS = styled.div`
-  color: #141414;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
-  font-family: "Ubuntu", sans-serif;
- 
- `

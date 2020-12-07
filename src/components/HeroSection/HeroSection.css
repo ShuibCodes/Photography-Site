@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 .hero-container {
     background: url("../../images/background2.jpg") center center/cover no-repeat;
     height: 100vh;
@@ -10,7 +12,20 @@
     object-fit: contain;
     margin-top: -80px;
   }
-  
+
+  .labels{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+  }
+  .words{
+    font-family: 'Kalam', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: space-around;
+    padding: 0px;
+  }
+
   .hero-container > h1 {
     color: #fff;
     font-size: 100px;
@@ -42,6 +57,16 @@
   
     .hero-container > p {
       font-size: 30px;
+    }
+
+
+
+    .words{
+      font-family: 'Kalam', cursive;
+      font-weight: 600;
+      font-size: 22px;
+      justify-content: space-around;
+      padding: 0px;
     }
   }
   
