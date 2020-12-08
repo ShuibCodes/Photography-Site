@@ -1,26 +1,27 @@
-import React, {useState} from 'react'
+import React, {useState}  from 'react'
 import './Contact.css'
 
 const Form = () => {
     const [message, setMessage] = useState(false);
-    const [reset, setReset] = useState();
+    const [ reset, setReset] = useState();
 
 
-    const resetForm = () =>{
+    const Form = () =>{
        setReset("")
     }
 
     const handleSubmit = (e) =>{    
         e.preventDefault();
-        resetForm();
+        Form();
        setMessage(true);
         
   }
     return (
         
-         <form onSubmit={handleSubmit} value={message}>
+         <form onSubmit={handleSubmit} value={message} >
          <ul className="form-style-1">
-        <li><label>Full Name <span className="required"></span></label><input value={reset} type="text" name="field1" className="field-divided" placeholder="First" /> <input value={reset} type="text" name="field2" className="field-divided" placeholder="Last" /></li>
+        <li><label>Full Name <span className="required"></span></label><input value={reset} type="text" name="field1" className="field-divided" placeholder="First" /> 
+        <input value={reset} type="text" name="field2" className="field-divided" placeholder="Last" /></li>
         <li>
             <label>Email <span className="required"></span></label>
             <input value={reset} type="email" name="field3" className="field-long" />
@@ -35,7 +36,7 @@ const Form = () => {
         </li>
         <li>
             <label>Your Message <span className="required"></span></label>
-            <textarea value={reset} name="field5" id="field5" className="field-long field-textarea"></textarea>
+            <textarea  value={reset} name="field5" id="field5" className="field-long field-textarea"></textarea>
         </li>
         <li>
             <button className="btn" type="submit" > Submit </button>
