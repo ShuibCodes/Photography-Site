@@ -76,7 +76,7 @@ export const NavMenu = styled.ul`
     top: 80px;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
     opacity: 1;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
     background: #fff;
   }
 `
@@ -99,7 +99,8 @@ export const NavLinks = styled(Link)`
   height: 100%;
   font-family: 'Chelsea Market',sans-serif;
   text-decoration: none;
-  position: sticky;
+  font-size: 15px;
+
 
 
   @media screen and (max-width: 960px) {

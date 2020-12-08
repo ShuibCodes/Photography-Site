@@ -18,9 +18,9 @@ const Form = () => {
   }
     return (
         
-         <form onSubmit={handleSubmit} value={message} >
+         <form className="box" onSubmit={handleSubmit} value={message} >
          <ul className="form-style-1">
-        <li><label>Full Name <span className="required"></span></label><input value={reset} type="text" name="field1" className="field-divided" placeholder="First" /> 
+        <li><label>Full Name <span className="required"></span></label><input value={reset} type="text" name="field1" className="field-divided" placeholder="First" /><span>   </span>
         <input value={reset} type="text" name="field2" className="field-divided" placeholder="Last" /></li>
         <li>
             <label>Email <span className="required"></span></label>

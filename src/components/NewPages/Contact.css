@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 .background{
 	background: url("../../images/background2.jpg") center center/cover no-repeat;
     height: 100vh;
@@ -18,7 +19,7 @@
 
 .active{
     opacity: 100%;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Kalam',cursive;
     font-weight: 500;
     padding: 10px;
@@ -40,9 +41,6 @@
 	border-radius: 3px;
 	   
 }
-
-
-
 
 .form-style-1 {
 	margin:10px auto;
@@ -137,12 +135,24 @@ textarea{
 }
 .btn{
     padding: 7px;
-    max-width: 100%;
+    /* max-width: 100%; */
 	font-family: 'Open Sans',sans-serif;
 	
 }
 
 label{
 	font-family: 'Chelsea Market', sans-serif;
+	font-size: 20px;
 }
 
+.form-style-1{
+	width: 400px;
+} 
+
+input{
+	font-family: sans-serif;
+}
+
+textarea{
+	font-family: sans-serif;
+}
