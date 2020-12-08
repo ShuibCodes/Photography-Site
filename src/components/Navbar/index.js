@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import TransitionLink from "gatsby-plugin-transition-link"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import {
   MobileIcon,
   Nav,
@@ -48,31 +46,16 @@ const Navbar = () => {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks>
-                <TransitionLink >
-                 <AniLink paintDrip duration={0.4} to="/">
-                      Home
-                 </AniLink>
-               </TransitionLink>
-                </NavLinks>
+                <NavLinks to="/"> Home </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks>
-                <TransitionLink >
-                 <AniLink paintDrip  duration={0.7} to="/Images" hex="#4dffff" >
-                      Travel
-                 </AniLink>
-               </TransitionLink>
-                </NavLinks>
+                <NavLinks to="/Images" > Travel </NavLinks>
               </NavItem>
               <NavItem>
-              <NavLinks>  
-              <TransitionLink >
-                 <AniLink paintDrip duration={0.4} to="/Portraits" >
-                      Portraits
-                 </AniLink>
-               </TransitionLink>
-              </NavLinks>
+              <NavLinks to="/Portraits" >Portraits </NavLinks>
+              </NavItem>
+              <NavItem>
+              <NavLinks to="/Contact" > Contact </NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>

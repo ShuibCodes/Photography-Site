@@ -13,7 +13,6 @@ const Portraits = () => (
        <SEO title="Portraits" />
        <Context/>
     <PortraitImages />
-    <div>HELLO</div>
   </Layout>
     
   

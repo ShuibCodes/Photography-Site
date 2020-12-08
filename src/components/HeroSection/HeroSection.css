@@ -22,9 +22,29 @@
     font-family: 'Kalam', cursive;
     font-weight: 600;
     font-size: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0px;
+    display: flex;
+    text-decoration: none;
+
+
   }
+
+  .each-word{
+    text-transform: none;
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    color: #fff;
+    font-family: 'Kalam';
+  }
+
+  .each-word:hover{
+    color: purple;
+    cursor: pointer;
+  }
+
+
 
   .hero-container > h1 {
     color: #fff;
