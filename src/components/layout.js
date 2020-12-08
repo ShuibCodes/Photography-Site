@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import Navbar from "./Navbar"
@@ -8,28 +9,24 @@ import '../css/custom.css'
 
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
   return (
+    <>
     <div className="flexBox">
-<>
       <Navbar />
-    
-      
-       <main>{children}</main>
+      <main>{children}</main>
       <Footer/>
-    </>
+    
     </div>
+
+    </>
+   
     
   )
+  Layout.propTypes = {
+    children: PropTypes.node.isRequired,
+  }
+  
 }
 
 

@@ -1,6 +1,7 @@
 .image-container {
     text-align: center;
     margin: 150px 0;
+    
   }
   
   .image-container h1 {
@@ -16,6 +17,9 @@
     width: 100%;
     max-width: 1000px;
     padding: 0 32px;
+    position: relative;
+    bottom: 50px;
+  
   }
   .image-item:nth-child(5) {
     grid-column-end: span 2;
@@ -42,4 +46,7 @@
     margin-bottom: 64px;
   }
   
+  .image-item{
+    border-radius: 5px;
+  }
  

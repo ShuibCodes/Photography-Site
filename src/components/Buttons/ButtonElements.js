@@ -1,8 +1,7 @@
 import styled from "styled-components"
 
 export const Button = styled.button`
-  border-radius: 4px;
-  background: ${({ primary }) => (primary ? "#0467FB" : "")};
+  background: ${({ primary }) => (primary ? "#2597D8" : "")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "12px 50px" : "10px 5px")};
   color: #fff;
@@ -11,6 +10,7 @@ export const Button = styled.button`
   border: none;
   cursor: pointer;
   font-family: "Ubuntu",;
+  border-radius: 12px;
 
   &:hover {
     transition: all 0.3s ease-out;
@@ -20,5 +20,11 @@ export const Button = styled.button`
 
   @media screen and (max-width: 960px) {
     width: 100%;
+    font-size: 17px;
+
+
   }
 `
+
+
+

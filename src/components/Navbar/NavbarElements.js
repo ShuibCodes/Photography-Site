@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import { DiScala } from "react-icons/Di"
 import styled from "styled-components"
 
+
 export const Nav = styled.nav`
   background: ${({ active }) =>
     active
@@ -29,6 +30,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   max-width: 1000px;
+  position: sticky;
 `
 
 export const NavLogo = styled(Link)`
@@ -74,7 +76,7 @@ export const NavMenu = styled.ul`
     top: 80px;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
     opacity: 1;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
     background: #fff;
   }
 `
@@ -88,13 +90,16 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(Link)`
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
   color: #141414;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Chelsea Market',sans-serif;
+  text-decoration: none;
+  font-size: 15px;
 
 
 
@@ -111,13 +116,3 @@ export const NavLinks = styled(Link)`
   }
 `
 
- export const NavlinkS = styled.div`
-  color: #141414;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
-  font-family: "Ubuntu", sans-serif;
- 
- `
