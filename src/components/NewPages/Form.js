@@ -1,30 +1,16 @@
-import React, {useState}  from 'react'
+import React from 'react'
 import './Contact.css'
 
 const Form = () => {
-    const [message, setMessage] = useState(false);
-    const [ reset, setReset] = useState();
-
-
-    const Form = () =>{
-       setReset("")
-    }
-
-    const handleSubmit = (e) =>{    
-        e.preventDefault();
-        Form();
-       setMessage(true);
-        
-  }
     return (
-        
-         <form className="box" onSubmit={handleSubmit} value={message} >
+        <div className="form-style-6">
+        <form className="box" action="https://formspree.io/f/xyybavee" method="POST" >
          <ul className="form-style-1">
-        <li><label>Full Name <span className="required"></span></label><input value={reset} type="text" name="field1" className="field-divided" placeholder="First" /><span>   </span>
-        <input value={reset} type="text" name="field2" className="field-divided" placeholder="Last" /></li>
+        <li><label>Full Name <span className="required"></span></label><input type="text" name="field1" className="field-divided" placeholder="First" /><span>   </span>
+        <input  type="text" name="name" required placeholder="Your Name" className="field-divided" /></li>
         <li>
             <label>Email <span className="required"></span></label>
-            <input value={reset} type="email" name="field3" className="field-long" />
+            <input type="email" name="_replyto" className="field-long" required placeholder="Email Address" />
         </li>   
         <li>
             <label>Genre</label>
@@ -36,20 +22,24 @@ const Form = () => {
         </li>
         <li>
             <label>Your Message <span className="required"></span></label>
-            <textarea  value={reset} name="field5" id="field5" className="field-long field-textarea"></textarea>
+            <textarea className="field-long field-textarea"  name="message" required placeholder="Type your Message"></textarea>
         </li>
         <li>
-            <button className="btn" type="submit" > Submit </button>
-            <p className={message ? 'active' : "empty"}>Thanks!</p>
+              <input className="btn" type="submit" value="Send" />    
 
         </li>
     </ul>
         
         </form>
+        </div>
+         
         
        
        
     )
-}
+
+        
+  }
+    
 
 export default Form;

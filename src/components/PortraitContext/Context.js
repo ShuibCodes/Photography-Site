@@ -7,9 +7,7 @@ const Context = () => {
         <div className="header">
                 <h3>Portraits</h3>
         </div>
-        <div className="subheading">
-                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aen </p>
-        </div>
+    
         </>
     )
 }

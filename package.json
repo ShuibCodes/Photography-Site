@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
-    "gatsby": "^2.29.2",
+    "gatsby": "^2.32.4",
     "gatsby-image": "^2.8.0",
     "gatsby-plugin-manifest": "^2.9.1",
     "gatsby-plugin-offline": "^3.7.1",
@@ -17,7 +17,7 @@
     "gatsby-plugin-transition-link": "^1.20.5",
     "gatsby-source-filesystem": "^2.8.1",
     "gatsby-transformer-sharp": "^2.9.0",
-    "gsap": "^3.5.1",
+    "gsap": "^3.6.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
