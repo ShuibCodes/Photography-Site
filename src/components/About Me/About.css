@@ -1,0 +1,63 @@
+.header{
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    position: relative; 
+    top: 10px;
+    
+
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 50px;
+}
+
+img{
+    height: 600px;
+    width: 800px;
+    padding: 40px;
+    border-radius: 10%;
+}
+p{
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.info{
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    img{
+        height: 600px;
+        width: 500px;
+     
+        
+    }
+    p{
+     
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 40px;
+    }
+    
+    .info{
+       
+    }
+    
+
+}

@@ -18,10 +18,10 @@ function HeroSection() {
               </ul>
             </div>
       <div className="hero-btns">
-      <Link to="this"
+      <Link to="header"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-50}
               duration={700} >
               <Button fontBig big primary> Check Out My Work! </Button>
            </Link> 
