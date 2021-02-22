@@ -18,7 +18,7 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
-    padding: 0 32px;
+  padding: 0px;
   }
   .imageItem:nth-child(5) {
     grid-column-end: span 2;
@@ -45,4 +45,8 @@
     margin-bottom: 64px;
   }
   
- 
+ @media screen and (max-width: 770px){
+   .imageGrid{
+     display: block;
+   }
+ }
