@@ -99,20 +99,26 @@ export const NavLinks = styled(Link)`
   height: 100%;
   font-family: 'Chelsea Market',sans-serif;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 22px;
 
-
+  &:focus{
+      color: darkblue;
+    }
 
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
+    font-size: 27px;
 
     &:hover {
-      color: #ff4040;
+      /* color: #ff4040; */
       transition: all 0.3s ease;
+      background-color:lightblue;
     }
+
+  
   }
 `
 
