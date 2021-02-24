@@ -1,5 +1,6 @@
 import React from 'react'
 import './Context.css'
+// import image from '../../images2/travellingsudania-white-JPEG.jpg'
 
 const Context = () => {
     return (
@@ -8,7 +9,8 @@ const Context = () => {
                 <h3 className="header">Travel Photos </h3>
         </div>
         <div className="subheading">
-                <p>A Collection of Images from my time in Sudan</p>
+                <p>Portraits</p>
+            
         </div>
         </>
     )

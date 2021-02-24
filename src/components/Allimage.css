@@ -47,7 +47,7 @@
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
       .carousel {
-        max-width: 300px;
+        max-width: 400px;
         margin: auto;
     }
     img{
@@ -56,7 +56,7 @@
     }
     }
 .carousel {
-  width:900px;
+  width:500px;
   height:500px;
   margin: auto;
 
