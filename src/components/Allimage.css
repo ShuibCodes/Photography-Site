@@ -1,4 +1,4 @@
-.imageGridd {
+/* .imageGridd {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 10px;
@@ -28,9 +28,41 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .imageGridd{
+  .carousel{
     display: block;
     margin: 0 auto;
     width: 100%;
   }
+} */
+
+@media only screen and (max-width: 770px) {
+  .carousel {
+      max-width: 520px;
+      margin: auto;
+  }
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .carousel {
+        max-width: 300px;
+        margin: auto;
+    }
+    img{
+      height: 100%;
+      width: 100%;
+    }
+    }
+.carousel {
+  width:900px;
+  height:500px;
+  margin: auto;
+
+}
+
+
+#scroll{
+  padding-bottom: 150px ;
 }

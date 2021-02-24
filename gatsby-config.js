@@ -5,7 +5,7 @@ module.exports = {
     author: `Marwa`
   },
   plugins: [
-    'gatsby-theme-gallery',
+  
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
