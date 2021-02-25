@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 770px) {
   .carousel {
-      max-width: 520px;
+      max-width: 400px;
       margin: auto;
   }
 }

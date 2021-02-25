@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import { DiScala } from "react-icons/Di"
+import { GiAfrica} from "react-icons/Gi"
 import styled from "styled-components"
 
 
@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   background: ${({ active }) =>
     active
       ? "#fff"
-      : "linear-gradient(to bottom,  rgba(255,255,255, 0.9) 0%,rgba(255,255,255,0) 100%)"};
+      : "white"};
   height: 80px;
   display: flex;
   justify-content: center;
@@ -36,15 +36,18 @@ export const NavbarContainer = styled.div`
 export const NavLogo = styled(Link)`
   color: #141414;
   justify-self: flex-start;
+  /* position: relative;
+  right: 7rem; */
   cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  
 `
 
-export const NavIcon = styled(DiScala)`
-  margin: 0 0.5rem 0 2rem;
+export const NavIcon = styled(GiAfrica)`
+display: none;
 `
 
 export const MobileIcon = styled.div`
