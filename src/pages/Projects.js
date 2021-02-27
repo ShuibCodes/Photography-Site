@@ -54,7 +54,7 @@ One thing I would say about us, is that Sudanese people preserve their values of
        </div>
        <Context/>
        <div className="album">
-                    <Carousel indicators={true} controls={true} touch={true}  >
+                    <Carousel  controls={true} touch={true}  >
                     
                     <Carousel.Item  interval={3000000} style={{width: "100%"}} >
 
