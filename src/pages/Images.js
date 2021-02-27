@@ -26,9 +26,13 @@ const Images = () => (
     
   </Row>
   <Row>
+   <Col xs={12} md={4}>  <Image src={image1} thumbnail /></Col>
+    
    <Col xs={12} md={8}>  <Image src={image1} thumbnail /></Col>
-    <Col xs={12} md={4}>  <Image src={image1} thumbnail /></Col>
+    <Col xs={12} md={8}>  <Image src={image1} thumbnail /></Col>
+   
   </Row>
+
   <Row>
    <Col xs={12} md={4} lg={4} xl={4}>  <Image src={image1} thumbnail /></Col>
     <Col xs={12} md={8} lg={8} xl={8}>  <Image src={image1} thumbnail /></Col>
