@@ -1,68 +1,48 @@
-/* .imageGridd {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 10px;
-  justify-content: center;
 
-  margin: 0 auto;
+/* html,body
+{
     width: 100%;
-    max-width: 1000px;
-  padding: 0px;
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
-
-.imageGridd .image-item{
-  width: 400px;
-  height: 400px;
-  margin-top: 60px;
-  padding: 5px;
-  
-}
-
-  
-.imageGridd img:hover {
-  transform: scale(1.1);
-  transition: 0.6s all ease !important;
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 600px) {
-  .carousel{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-  }
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 } */
 
-@media only screen and (max-width: 770px) {
-  .carousel {
-      max-width: 400px;
-      margin: auto;
-  }
+
+@media only screen and (max-width: 500px) {
+  .carousel{
+    padding: 0;
+    max-width: 400px;
+    max-height: 500px;
+    height: 500px;
+    margin-left: 30px;
 }
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
-      .carousel {
-        max-width: 400px;
-        margin: auto;
-    }
-    img{
-      height: 100%;
-      width: 100%;
-    }
-    }
-.carousel {
-  width:500px;
-  height:500px;
+
+  
+.d-block{
+  height: 100%;
+  width: 100%;
+  padding: 30px !important;
+  position: relative !important;
+  left: -3rem;
+  border-radius: 0;
+}
+
+.album-description{
+  margin-left: 10px;
+}
+
+.desc-1{
   margin: auto;
+  padding: 10px;
+  margin: 5px;
+}
+
+.desc-2{
+  padding: 5px 10px;
+  padding-top: 100px;
+}
 
 }
 
-
-#scroll{
-  padding-bottom: 150px ;
-}
