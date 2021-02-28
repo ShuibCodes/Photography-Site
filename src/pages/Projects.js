@@ -3,9 +3,9 @@ import SEO from "../components/seo"
 import Layout from '../components/Layout'
 import Context from '../components/Projects/Context'
 
-import image1 from '../images/IMG_20190918_155436.jpg'
-import image2 from '../images/IMG_6792.jpg'
-import image3 from '../images/20200903160705_IMG_8724.jpg'
+import image1 from '../images/DSC_0187 (2).jpg'
+// import image2 from '../images/IMG_6792.jpg'
+import image3 from '../images/DSC_0187 (2).jpg'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -30,7 +30,7 @@ const Projects = () => (
                     <Carousel.Item interval={3000000} style={{width: "100%"}}>
                     <img 
                     className="d-block w-100"
-                    src={image2}
+                    src={image3}
                     alt="Second slide"
                     />
                     </Carousel.Item>
@@ -54,7 +54,7 @@ One thing I would say about us, is that Sudanese people preserve their values of
        </div>
        <Context/>
        <div className="album">
-                    <Carousel  controls={true} touch={true}  >
+                    <Carousel ga controls={true} touch={true}  >
                     
                     <Carousel.Item  interval={3000000} style={{width: "100%"}} >
 
@@ -67,7 +67,7 @@ One thing I would say about us, is that Sudanese people preserve their values of
                     <Carousel.Item interval={3000000} style={{width: "100%"}}>
                     <img 
                     className="d-block w-100"
-                    src={image2}
+                    src={image3}
                     alt="Second slide"
                     />
                     </Carousel.Item>

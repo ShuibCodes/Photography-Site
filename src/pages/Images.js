@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 import '../components/TravelContext/Context.css'
 import Context from "../components/TravelContext/Context"
 import "../components/Allimage.css"
-import image1 from '../images/IMG_20190918_155436.jpg'
-import image2 from '../images/IMG_6792.jpg'
-import image3 from '../images/20200903160705_IMG_8724.jpg'
+import image1 from '../images/DSC_0187 (2).jpg'
+import image2 from '../images/DSC_0187 (2).jpg'
+import image3 from '../images/DSC_0187 (2).jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
