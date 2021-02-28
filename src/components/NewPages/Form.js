@@ -10,7 +10,7 @@ const Form = () => {
          <ul className="form-style-1">
         <li><label htmlFor="full-name" >Full Name <span className="required"></span></label><input type="text" name="field1" className="field-divided" placeholder="First" /><span>   </span>
         <input type="text" name="name" required placeholder="Your Name" className="field-divided" />
-            <button>click</button>
+            
         </li>
         <li>
             <label htmlFor="email">Email <span className="required"></span></label>
