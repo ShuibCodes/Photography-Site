@@ -4,11 +4,14 @@
 ## This website will be made with GatsbyJS's using Gatsby Image to display the photos.The stite is also fully mobile-responsive using styled components.
 
 
-
-<img width="1189" alt="Screenshot 2020-12-05 at 20 18 15" src="https://user-images.githubusercontent.com/71759511/101262482-0f0a6300-3737-11eb-8666-0cbf6546f39f.png">
-
+![Screenshot 2021-02-28 at 20 56 01](https://user-images.githubusercontent.com/71759511/109433298-95b5a000-7a07-11eb-8775-66dbfc0492b4.png)
 
 
-<img width="1186" alt="Screenshot 2020-12-05 at 20 20 42" src="https://user-images.githubusercontent.com/71759511/101262557-a1ab0200-3737-11eb-9c84-9fda68609136.png">
+![Screenshot 2021-02-28 at 20 55 27](https://user-images.githubusercontent.com/71759511/109433301-99492700-7a07-11eb-87f7-512210b4d121.png)
 
+
+![Screenshot 2021-02-28 at 20 50 51](https://user-images.githubusercontent.com/71759511/109433305-9cdcae00-7a07-11eb-8e68-6f1de2a44b10.png)
+
+
+![Screenshot 2021-02-28 at 20 50 26](https://user-images.githubusercontent.com/71759511/109433306-9e0ddb00-7a07-11eb-9f13-f950de3a93d5.png)
 
