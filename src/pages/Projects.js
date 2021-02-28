@@ -2,9 +2,7 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from '../components/layout'
 import Context from '../components/Projects/Context'
-
 import image1 from '../images/DSC_0187 (2).jpg'
-// import image2 from '../images/IMG_6792.jpg'
 import image3 from '../images/DSC_0187 (2).jpg'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,9 +15,9 @@ const Projects = () => (
 
        <Context/>
        <div className="album">
-                    <Carousel indicators={true} controls={true} touch={true}  >
+                    <Carousel indicators={null} controls={true} touch={true}  >
                     
-                    <Carousel.Item  interval={false} style={{width: "100%"}} >
+                    <Carousel.Item  interval={null} style={{width: "100%"}} >
 
                     <img 
                     className="d-block w-100"
@@ -27,14 +25,14 @@ const Projects = () => (
                     alt="First slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={false} style={{width: "100%"}}>
+                    <Carousel.Item interval={null} style={{width: "100%"}}>
                     <img 
                     className="d-block w-100"
                     src={image3}
                     alt="Second slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={false} style={{width: "100%"}} >
+                    <Carousel.Item interval={null} style={{width: "100%"}} >
                     <img
                     className="d-block w-100"
                     src={image3}
@@ -56,7 +54,7 @@ One thing I would say about us, is that Sudanese people preserve their values of
        <div className="album">
                     <Carousel controls={true} touch={true}  >
                     
-                    <Carousel.Item  interval={false} style={{width: "100%"}} >
+                    <Carousel.Item  interval={null} style={{width: "100%"}} >
 
                     <img 
                     className="d-block w-100"
@@ -64,14 +62,14 @@ One thing I would say about us, is that Sudanese people preserve their values of
                     alt="First slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={false} style={{width: "100%"}}>
+                    <Carousel.Item interval={null} style={{width: "100%"}}>
                     <img 
                     className="d-block w-100"
                     src={image3}
                     alt="Second slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={false} style={{width: "100%"}} >
+                    <Carousel.Item interval={null} style={{width: "100%"}} >
                     <img
                     className="d-block w-100"
                     src={image3}
