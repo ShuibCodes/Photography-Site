@@ -98,5 +98,5 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     margin-top: -80px;
-    opacity: 87%;
+    opacity: 87% !important;
   }
