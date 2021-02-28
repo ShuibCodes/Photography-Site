@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from "../components/seo"
 import '../components/NewPages/Contact.css'
 import Form from '../components/NewPages/Form'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 
 const Contact = () =>(
     <Layout>
