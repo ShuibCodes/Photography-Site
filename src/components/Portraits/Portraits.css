@@ -33,17 +33,17 @@
     grid-column-end: span 3;
   } 
   .imageItem:nth-child(5) {
-    border: 1px solid blue;
+   
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end:  3 ;
 } 
 .imageItem:nth-child(7) {
-  border: 1px solid black;
+ 
 grid-column: span 3;
 } 
     .imageItem:nth-child(4) {
-      border: 1px solid blue;
+    
     grid-row-start: 6;
     grid-column-end: span 3;
   } 

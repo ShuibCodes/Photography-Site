@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Pictures = () => {
     return (
         <div>
-               <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
+               <Carousel showArrows={true} o>
                 <div>
                     <img src={image1} />
                     <p className="legend">Legend 1</p>
