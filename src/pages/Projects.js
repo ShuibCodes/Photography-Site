@@ -19,7 +19,7 @@ const Projects = () => (
        <div className="album">
                     <Carousel indicators={true} controls={true} touch={true}  >
                     
-                    <Carousel.Item  interval={3000000} style={{width: "100%"}} >
+                    <Carousel.Item  interval={false} style={{width: "100%"}} >
 
                     <img 
                     className="d-block w-100"
@@ -27,14 +27,14 @@ const Projects = () => (
                     alt="First slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={3000000} style={{width: "100%"}}>
+                    <Carousel.Item interval={false} style={{width: "100%"}}>
                     <img 
                     className="d-block w-100"
                     src={image3}
                     alt="Second slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={1000000} style={{width: "100%"}} >
+                    <Carousel.Item interval={false} style={{width: "100%"}} >
                     <img
                     className="d-block w-100"
                     src={image3}
@@ -54,9 +54,9 @@ One thing I would say about us, is that Sudanese people preserve their values of
        </div>
        <Context/>
        <div className="album">
-                    <Carousel ga controls={true} touch={true}  >
+                    <Carousel controls={true} touch={true}  >
                     
-                    <Carousel.Item  interval={3000000} style={{width: "100%"}} >
+                    <Carousel.Item  interval={false} style={{width: "100%"}} >
 
                     <img 
                     className="d-block w-100"
@@ -64,14 +64,14 @@ One thing I would say about us, is that Sudanese people preserve their values of
                     alt="First slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={3000000} style={{width: "100%"}}>
+                    <Carousel.Item interval={false} style={{width: "100%"}}>
                     <img 
                     className="d-block w-100"
                     src={image3}
                     alt="Second slide"
                     />
                     </Carousel.Item>
-                    <Carousel.Item interval={1000000} style={{width: "100%"}} >
+                    <Carousel.Item interval={false} style={{width: "100%"}} >
                     <img
                     className="d-block w-100"
                     src={image3}

@@ -1,7 +1,7 @@
 import React from "react"
 import {Button} from '../Buttons/ButtonElements'
 import "./HeroSection.css"
-// import {Link} from 'gatsby'
+
 import {Link} from 'react-scroll'
 
 
