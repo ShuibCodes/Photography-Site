@@ -63,7 +63,7 @@
     width: 50px !important;
 
     height: 70px;
-    opacity: 3.0;
+    opacity: 1;
     margin-top: 450px;
 
 } 
@@ -134,9 +134,9 @@ main{
 
    
 
-  .carousel-control-next-icon, .carousel-control-prev-icon {
+  /* .carousel-control-next-icon, .carousel-control-prev-icon {
     opacity: 0;
-}
+} */
 
 
 
