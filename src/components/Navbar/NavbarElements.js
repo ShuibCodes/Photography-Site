@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import { GiAfrica} from "react-icons/Gi"
+import { GiAfrica} from 'react-icons/gi'
 import styled from "styled-components"
 
 
