@@ -9,32 +9,19 @@
 } */
 
 
+
+          /* Albums */     
+
 @media only screen and (max-width: 500px) {
-  .carousel{
-    padding: 0;
-    max-width: 400px;
-    max-height: 500px;
-    height: 500px;
-    margin-left: 30px;
-}
+ 
+
+  /* Image in carousel */
+ 
+/*  */
 
 
 
-
-.d-block{
-  height: 100%;
-  width: 100%;
-  padding: 30px !important;
-  position: relative !important;
-  left: -3rem;
-  border-radius: 0;
-}
-
-.album-description{
-  margin-left: 10px;
-}
-
-.desc-1{
+/* .desc-1{
   margin: auto;
   padding: 10px;
   margin: 5px;
@@ -43,7 +30,7 @@
 .desc-2{
   padding: 5px 10px;
   padding-top: 100px;
-}
+} */
 
 }
 

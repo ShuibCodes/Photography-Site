@@ -43,7 +43,7 @@ const Navbar = () => {
           <IconContext.Provider value={{size:'50px'}}>
           <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-              <img className="logo" src={logo} alt="logo" ></img>
+              <img className="TSlogo" src={logo} alt="logo" ></img>
             </NavLogo>
           </IconContext.Provider>
           

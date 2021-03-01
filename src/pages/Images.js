@@ -3,7 +3,7 @@ import React from "react"
 import Layout from '../components/layout'
 import SEO from "../components/seo"
 // import Image from '../components/Image'
-import '../components/TravelContext/Context.css'
+
 // import Context from "../components/TravelContext/Context"
 import "../components/Allimage.css"
 

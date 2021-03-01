@@ -9,8 +9,7 @@ const Context = () => {
                 <h3 className="header">Albums</h3>
         </div>
         <div className="subheading">
-              
-            
+              {/* to be added */}
         </div>
         </>
     )

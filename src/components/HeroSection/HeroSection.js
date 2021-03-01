@@ -9,7 +9,7 @@ import {Link} from 'react-scroll'
 function HeroSection() {
   return (
     <div className="hero-container">
-      {/* <h1 className="sudania">Travelling Sudania</h1> */}
+      
       <div className="subheading">
               <ul className="words">
                     <li className="each-word"> Travel | </li>

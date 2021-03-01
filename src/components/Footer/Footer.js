@@ -8,9 +8,9 @@ const Footer = () => {
             <SocialMediaWrap>
                 <SocialLogo>
                     <SocialIcon />
-                    Travelling Sundania 
+                    Travelling Sudania
                 </SocialLogo>
-                <WebsiteRights>Travelling Sundania © {new Date().getFullYear()}
+                <WebsiteRights>Travelling Sudania © {new Date().getFullYear()}
                 </WebsiteRights>
                 <SocialIcons>
                     <SocialIconLink href='/' target="_blank" aria-label="Facebook">

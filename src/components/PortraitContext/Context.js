@@ -4,7 +4,7 @@ import './Context.css'
 const Context = () => {
     return (
         <>
-        <div className="header">
+        <div className="portraits-header">
                 <h3>Portraits</h3>
         </div>
     
